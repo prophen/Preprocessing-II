@@ -168,6 +168,24 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+nav h1 {
+  margin: 1rem 0;
+}
+nav div {
+  display: flex;
+  align-content: baseline;
+  width: 39.5%;
+}
+nav div a {
+  text-decoration: none;
+  font-size: 1.6rem;
+  padding: 2rem 2.95rem 2rem 0;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
