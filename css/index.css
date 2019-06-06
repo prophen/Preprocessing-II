@@ -169,19 +169,26 @@ img {
   margin: 0 auto;
 }
 nav {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
+  width: 100rem;
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1rem;
+  margin: auto;
 }
 nav h1 {
   margin: 1rem 0;
 }
-nav div {
+nav .nav-items {
+  margin: auto;
+  max-width: 80rem;
+  display: flex;
+  justify-content: space-between;
+}
+nav .nav-links {
   display: flex;
   align-content: baseline;
   width: 39.5%;
 }
-nav div a {
+nav .nav-links a {
   text-decoration: none;
   font-size: 1.6rem;
   padding: 2rem 2.95rem 2rem 0;
@@ -197,8 +204,12 @@ nav div a {
   font-size: 1.6rem;
   padding: 20px;
 }
+.home header {
+  border-bottom: 2px dashed #C0C0C0;
+  padding-bottom: 1rem;
+}
 .home header img {
-  padding: 1.1rem 0 2.1rem;
+  padding: 0 0 2.1rem;
 }
 .home .content-section {
   margin: 30px 0;
