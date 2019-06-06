@@ -235,6 +235,11 @@ nav .nav-links a {
   font-size: 1.6rem;
   padding: 20px;
 }
+@media (max-width: 500px) {
+  .home {
+    width: 90vw;
+  }
+}
 .home header {
   border-bottom: 2px dashed #C0C0C0;
   padding-bottom: 1rem;
