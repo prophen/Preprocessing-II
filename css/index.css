@@ -260,8 +260,10 @@ nav .nav-links a {
 .home .content-pick .btn {
   background-color: #008580;
   color: #FFFFFF;
-  padding: 2rem;
-  margin: 2rem;
-  border-radius: 1rem;
-  font-size: 3rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+  border-radius: 1.5rem;
+  font-size: 1.8rem;
+  width: 20rem;
+  text-align: center;
 }
