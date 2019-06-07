@@ -313,6 +313,11 @@ nav .nav-links a {
   width: 75%;
   margin: 0 auto 30px;
 }
+@media (max-width: 500px) {
+  .home .content-destination {
+    width: 100%;
+  }
+}
 .home .content-destination img {
   border-radius: 10px;
 }
@@ -322,9 +327,20 @@ nav .nav-links a {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-pick {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .home .content-pick .destination {
   width: 30%;
   margin-bottom: 30px;
+}
+@media (max-width: 500px) {
+  .home .content-pick .destination {
+    width: 77%;
+  }
 }
 .home .content-pick .btn {
   background-color: #008580;
@@ -335,4 +351,17 @@ nav .nav-links a {
   font-size: 1.8rem;
   width: 20rem;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .home .content-pick .btn {
+    background-color: #17A2B8;
+    color: #FFFFFF;
+    padding: 1rem;
+    margin-top: 0.5rem;
+    border-radius: 1.5rem;
+    width: 36rem;
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 1.25rem;
+  }
 }
