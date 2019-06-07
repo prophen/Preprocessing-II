@@ -2,6 +2,7 @@
   @media @mobile {
     width: 91vw;
     padding: 0 0 0 0.55rem;
+    margin: auto;
   }
 
   header {
@@ -96,6 +97,8 @@
     @media @mobile {
       flex-direction: column;
       align-items: center;
+      justify-content: center;
+      margin: auto;
     }
 
     .destination {
@@ -110,7 +113,7 @@
       .signin-buttons();
 
       @media @mobile {
-        .signin-buttons(@button-bg, @white, 36rem);
+        .signin-buttons(@button-bg, @white, 100%);
         font-size: 1.8rem;
         padding: 1.25rem;
       }

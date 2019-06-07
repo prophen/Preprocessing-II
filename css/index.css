@@ -239,6 +239,7 @@ nav .nav-links a {
   .home {
     width: 91vw;
     padding: 0 0 0 0.55rem;
+    margin: auto;
   }
 }
 .home header {
@@ -331,6 +332,8 @@ nav .nav-links a {
   .home .content-pick {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    margin: auto;
   }
 }
 .home .content-pick .destination {
@@ -359,7 +362,7 @@ nav .nav-links a {
     padding: 1rem;
     margin-top: 0.5rem;
     border-radius: 1.5rem;
-    width: 36rem;
+    width: 100%;
     text-align: center;
     font-size: 1.8rem;
     padding: 1.25rem;
